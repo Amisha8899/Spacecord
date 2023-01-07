@@ -1,0 +1,63 @@
+@font-face {
+    font-family: myfont;
+    src: url(ethnocentric.ttf);
+}
+body{
+    background-image: url("SC.jpg");
+    font-family: myfont;
+}
+nav{
+    width: 100%;
+    transition: background-color 0.5s;
+}
+.nav-link, .navbar-brand, form .btn-outline{
+    color: white;
+}
+.login{
+    color: white;
+    background-color: rgb(0, 0, 0, 0.5);
+    border-color:  #C95830;
+}
+button .btn{
+    border: solid 5px;
+    border-radius: 10px;
+}
+.login button{
+    border: solid 5px #C95830; 
+    border-radius: 30px;
+}
+.login .form-control{
+    border: 0px;
+    border-bottom: solid 2px rgb(150, 150, 150);
+    background-color:  rgb(0, 0, 0, 0.2);
+    color: white;
+}
+.content h3, .content p{
+    color: white;
+    text-align: center;
+    margin: 25px;
+    padding: 10px;
+}
+.member{
+    height: 5%;
+    width: 15%;
+    margin: 4.8%;
+}
+.zeroup{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.zerodown{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+input::placeholder{
+    color: white;
+}
+input::-ms-input-placeholder{
+    color: white;
+}
+.followus a{
+    color:#C95830;
+    padding: 32px;
+}
